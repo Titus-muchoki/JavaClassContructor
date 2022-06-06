@@ -1,5 +1,16 @@
-package org.example;public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+package org.example;
+
+import javax.swing.text.Style;
+
+public class Main {
+    short p;
+    String name;
+   double myDouble;
+    byte x;
+    public  Main(){
+        p = 23;
+        name = "kajela";
+        myDouble = 22.11d;
+        x = 87;
     }
 }
